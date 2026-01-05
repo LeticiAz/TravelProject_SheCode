@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    background: #272044;
+    background: white;
   }
   
   .container {
@@ -11,6 +11,7 @@ body {
   .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 34px;
   }
   
   section {
@@ -68,8 +69,8 @@ body {
   footer {
     color: white;
     background-image: linear-gradient(
-        rgba(39, 32, 68, 0.9),
-        rgba(39, 32, 68, 0.9)
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
       ),
       url("../images/lisbon-footer.png");
   
@@ -88,7 +89,6 @@ body {
     font-weight: 400;
     font-size: 16px;
     opacity: 0.7;
-    margin-right: 20px;
     line-height: 24px;
   }
   
@@ -122,5 +122,17 @@ body {
   
     header h3 {
       font-size: 12px;
+    }
+
+    footer h3 {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 9px;
+    }
+
+    footer a {
+        font-size: 9px;
     }
   }
