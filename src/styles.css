@@ -242,6 +242,14 @@ footer a {
     padding: 30px;
   }
 
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+
   footer h3 {
     font-size: 12px;
   }
